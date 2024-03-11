@@ -1,0 +1,20 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.visited {
+  background-color: aquamarine;
+  color: red;
+}
+
+.flag-info {
+  width: 100px;
+  margin-right: auto;
+  display: flex;
+  gap: 10px;
+}
+.flag-info img {
+  width: 100px;
+}
